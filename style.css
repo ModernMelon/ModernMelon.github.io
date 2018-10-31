@@ -1,0 +1,94 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background: url(art.jpg) 50% 50% no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: table;
+}
+
+.login {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h2 {
+    color: #fff;
+    font-family: SourceSansPro-Light;
+    font-weight: lighter;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+input {
+    height: 50px;
+    width: 320px;
+    font-family: SourceSansPro-Light;
+    font-weight: lighter;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    display: block;
+    outline: none;
+}
+
+button {
+    height: 50px;
+    width: 332px;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 16px;
+    background: #000;
+    border: 0px;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+.btn {
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #55ACEE;
+    color: white;
+}

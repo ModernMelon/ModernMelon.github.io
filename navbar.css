@@ -1,0 +1,26 @@
+h1 {
+    color: #008378;
+}
+
+.fixed-nav-bar {
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    position: fixed;
+    background-color: white;
+}
+
+.fixed-nav-bar li,
+.fixed-nav-bar a {
+    height: 50px;
+    line-height: 50px;
+}
+
+.sitename {
+    margin-left: 10px;
+    margin-right: 20px;
+    display: inline-block;
+}

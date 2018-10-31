@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+.search-box {
+    position: absolute;
+    top: auto;
+    left: 40%;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+
+.light{
+	width:330px;
+
+}
+.light input[type="text"] {
+    border: medium none;
+    height: 45px;
+    padding: 5px 14px;
+    width: 75%;
+	float:left;
+	border-right:solid 1px #bfbfbf;
+}
+.light input[type="submit"] {
+    background: url(find.png) center no-repeat;
+	background-color:#FFF;
+	text-indent: -9999px; 
+	width:72px;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 45px;
+    padding: 5px 14px;
+	text-transform:uppercase;
+}
+
+
